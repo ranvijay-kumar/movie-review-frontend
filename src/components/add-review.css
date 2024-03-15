@@ -1,0 +1,19 @@
+.my-container {
+    min-height: 450px !important;
+    width: 350px;
+    border: 2px solid rgba(175,175,175,0.5);
+    border-radius: 5px;
+
+}
+.add-review-btn {
+    background-color: rgba(100,88,244,255) !important;
+    color: aliceblue !important;
+}
+input {
+    border: 1px solid rgba(100,100,100,0.8);
+    border-radius: 5px;
+    width: 100%;
+}
+.comment-box {
+    height: 100px;
+}
