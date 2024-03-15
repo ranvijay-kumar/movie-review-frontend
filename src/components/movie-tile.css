@@ -1,0 +1,7 @@
+.tile {
+    height:200px;
+    width: 300px;
+    min-height: 200px;
+    min-width: 300px;
+    background-color: rgba(225,222,252,255);
+}
