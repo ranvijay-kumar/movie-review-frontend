@@ -1,7 +1,7 @@
 import React from "react";
 import "./add-movie.css";
 
-function AddMovie() {
+function AddMovie({closeModal}) {
   return (
     <div className="my-container p-4 d-flex flex-column justify-content-between">
       <div className="">Add new movie</div>

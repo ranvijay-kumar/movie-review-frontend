@@ -1,7 +1,7 @@
 import React from "react";
 import "./add-review.css";
 
-function AddReview() {
+function AddReview({closeModal}) {
   return (
     <div className="my-container p-4 d-flex flex-column justify-content-between">
       <div className="">Add new review</div>
