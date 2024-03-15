@@ -12,3 +12,7 @@
     height: 100px;
     background-color: grey;
 }
+.add-review-btn {
+    background-color: rgba(100,88,244,255) !important;
+    color: aliceblue !important;
+}
