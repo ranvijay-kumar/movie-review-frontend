@@ -1,0 +1,14 @@
+.navbar {
+    height: 100px;
+    color: rgba(25,25,25,0.8);
+    background-color: rgba(207,217,224,255);
+}
+.add-movie-btn {
+    background-color: white !important;
+    border: 2px solid rgba(100,88,244,255) !important;
+    color: rgba(100,88,244,255) !important;
+}
+.add-review-btn {
+    background-color: rgba(100,88,244,255) !important;
+    color: aliceblue !important;
+}
