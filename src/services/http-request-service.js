@@ -27,7 +27,7 @@ const deleteMovie = async (id) => {
 };
 const addReview = async (review) => {
   try {
-    const url = "/review";
+    const url = BASE_URL + "/review";
     return await axios.post(url, review);
   } catch (e) {
     return false;
@@ -35,7 +35,7 @@ const addReview = async (review) => {
 };
 const getReview = async (movieId) => {
   try {
-    const url = "/review/" + movieId;
+    const url = BASE_URL + "/review/" + movieId;
     return await axios.get(url);
   } catch (e) {
     return false;
@@ -43,11 +43,11 @@ const getReview = async (movieId) => {
 };
 const deleteReview = async (reviewId) => {
   try {
-    const url = "/review/" + reviewId;
+    const url = BASE_URL + "/review/" + reviewId;
     return await axios.delete(url);
   } catch (e) {
     return false;
   }
 };
 
-export default getMovieList;
+export { addMovie, getMovieList, deleteMovie, addReview, getReview, deleteReview };

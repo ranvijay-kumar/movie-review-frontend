@@ -1,14 +1,17 @@
 import React from "react";
 import "./review-tile.css";
 
-function ReviewTile() {
+function ReviewTile(props) {
+  const comment = props.review.comment;
+  const rating = props.review.rating;
+  const reviewerName = props.review.reviewerName;
   return (
-    <div className="review-tile p-4 d-flex flex-column">
+    <div className="review-tile p-4 d-flex flex-column my-3">
       <div className="d-flex flex-row justify-content-between">
-        <p>This is best movie ever</p>
-        <p className="color-voilet">9/10</p>
+        <p>{comment}</p>
+        <p className="color-voilet">{rating}/10</p>
       </div>
-      <div>By Amit</div>
+      <div>{reviewerName}</div>
     </div>
   );
 }
