@@ -20,7 +20,7 @@ const getMovieList = async () => {
 const deleteMovie = async (id) => {
   try {
     const url = BASE_URL + "/movie/" + id;
-    return await axios.get(url);
+    return await axios.delete(url);
   } catch (e) {
     return false;
   }
